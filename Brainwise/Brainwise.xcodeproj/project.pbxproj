@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E6C82FF2CC89A8E00395C81 /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = 8E6C82FE2CC89A8E00395C81 /* OpenAI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E11FBED2CC4147D00F4C71A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E11FBD42CC4147C00F4C71A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E11FBDB2CC4147C00F4C71A;
+			remoteInfo = Brainwise;
+		};
+		8E11FBF72CC4147D00F4C71A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E11FBD42CC4147C00F4C71A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E11FBDB2CC4147C00F4C71A;
+			remoteInfo = Brainwise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E11FBDC2CC4147C00F4C71A /* Brainwise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brainwise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E11FBEC2CC4147D00F4C71A /* BrainwiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrainwiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E11FBF62CC4147D00F4C71A /* BrainwiseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrainwiseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8E11FBDE2CC4147C00F4C71A /* Brainwise */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Brainwise;
+			sourceTree = "<group>";
+		};
+		8E11FBEF2CC4147D00F4C71A /* BrainwiseTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BrainwiseTests;
+			sourceTree = "<group>";
+		};
+		8E11FBF92CC4147D00F4C71A /* BrainwiseUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BrainwiseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E11FBD92CC4147C00F4C71A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E6C82FF2CC89A8E00395C81 /* OpenAI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E11FBE92CC4147D00F4C71A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E11FBF32CC4147D00F4C71A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E11FBD32CC4147C00F4C71A = {
+			isa = PBXGroup;
+			children = (
+				8E11FBDE2CC4147C00F4C71A /* Brainwise */,
+				8E11FBEF2CC4147D00F4C71A /* BrainwiseTests */,
+				8E11FBF92CC4147D00F4C71A /* BrainwiseUITests */,
+				8E11FBDD2CC4147C00F4C71A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E11FBDD2CC4147C00F4C71A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E11FBDC2CC4147C00F4C71A /* Brainwise.app */,
+				8E11FBEC2CC4147D00F4C71A /* BrainwiseTests.xctest */,
+				8E11FBF62CC4147D00F4C71A /* BrainwiseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E11FBDB2CC4147C00F4C71A /* Brainwise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E11FC002CC4147D00F4C71A /* Build configuration list for PBXNativeTarget "Brainwise" */;
+			buildPhases = (
+				8E11FBD82CC4147C00F4C71A /* Sources */,
+				8E11FBD92CC4147C00F4C71A /* Frameworks */,
+				8E11FBDA2CC4147C00F4C71A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8E11FBDE2CC4147C00F4C71A /* Brainwise */,
+			);
+			name = Brainwise;
+			packageProductDependencies = (
+				8E6C82FE2CC89A8E00395C81 /* OpenAI */,
+			);
+			productName = Brainwise;
+			productReference = 8E11FBDC2CC4147C00F4C71A /* Brainwise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E11FBEB2CC4147D00F4C71A /* BrainwiseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E11FC032CC4147D00F4C71A /* Build configuration list for PBXNativeTarget "BrainwiseTests" */;
+			buildPhases = (
+				8E11FBE82CC4147D00F4C71A /* Sources */,
+				8E11FBE92CC4147D00F4C71A /* Frameworks */,
+				8E11FBEA2CC4147D00F4C71A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E11FBEE2CC4147D00F4C71A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8E11FBEF2CC4147D00F4C71A /* BrainwiseTests */,
+			);
+			name = BrainwiseTests;
+			packageProductDependencies = (
+			);
+			productName = BrainwiseTests;
+			productReference = 8E11FBEC2CC4147D00F4C71A /* BrainwiseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E11FBF52CC4147D00F4C71A /* BrainwiseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E11FC062CC4147D00F4C71A /* Build configuration list for PBXNativeTarget "BrainwiseUITests" */;
+			buildPhases = (
+				8E11FBF22CC4147D00F4C71A /* Sources */,
+				8E11FBF32CC4147D00F4C71A /* Frameworks */,
+				8E11FBF42CC4147D00F4C71A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E11FBF82CC4147D00F4C71A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8E11FBF92CC4147D00F4C71A /* BrainwiseUITests */,
+			);
+			name = BrainwiseUITests;
+			packageProductDependencies = (
+			);
+			productName = BrainwiseUITests;
+			productReference = 8E11FBF62CC4147D00F4C71A /* BrainwiseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E11FBD42CC4147C00F4C71A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					8E11FBDB2CC4147C00F4C71A = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					8E11FBEB2CC4147D00F4C71A = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 8E11FBDB2CC4147C00F4C71A;
+					};
+					8E11FBF52CC4147D00F4C71A = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 8E11FBDB2CC4147C00F4C71A;
+					};
+				};
+			};
+			buildConfigurationList = 8E11FBD72CC4147C00F4C71A /* Build configuration list for PBXProject "Brainwise" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E11FBD32CC4147C00F4C71A;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				8E6C82FD2CC8991100395C81 /* XCRemoteSwiftPackageReference "OpenAI" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8E11FBDD2CC4147C00F4C71A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E11FBDB2CC4147C00F4C71A /* Brainwise */,
+				8E11FBEB2CC4147D00F4C71A /* BrainwiseTests */,
+				8E11FBF52CC4147D00F4C71A /* BrainwiseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E11FBDA2CC4147C00F4C71A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E11FBEA2CC4147D00F4C71A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E11FBF42CC4147D00F4C71A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E11FBD82CC4147C00F4C71A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E11FBE82CC4147D00F4C71A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E11FBF22CC4147D00F4C71A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E11FBEE2CC4147D00F4C71A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E11FBDB2CC4147C00F4C71A /* Brainwise */;
+			targetProxy = 8E11FBED2CC4147D00F4C71A /* PBXContainerItemProxy */;
+		};
+		8E11FBF82CC4147D00F4C71A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E11FBDB2CC4147C00F4C71A /* Brainwise */;
+			targetProxy = 8E11FBF72CC4147D00F4C71A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8E11FBFE2CC4147D00F4C71A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E11FBFF2CC4147D00F4C71A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E11FC012CC4147D00F4C71A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Brainwise/Preview Content\"";
+				DEVELOPMENT_TEAM = 44HD2NV6S9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Need to unlock user data";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = semicolon.io.Brainwise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E11FC022CC4147D00F4C71A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Brainwise/Preview Content\"";
+				DEVELOPMENT_TEAM = 44HD2NV6S9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Need to unlock user data";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = semicolon.io.Brainwise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8E11FC042CC4147D00F4C71A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = semicolon.io.BrainwiseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brainwise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Brainwise";
+			};
+			name = Debug;
+		};
+		8E11FC052CC4147D00F4C71A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = semicolon.io.BrainwiseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brainwise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Brainwise";
+			};
+			name = Release;
+		};
+		8E11FC072CC4147D00F4C71A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = semicolon.io.BrainwiseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Brainwise;
+			};
+			name = Debug;
+		};
+		8E11FC082CC4147D00F4C71A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = semicolon.io.BrainwiseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Brainwise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E11FBD72CC4147C00F4C71A /* Build configuration list for PBXProject "Brainwise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E11FBFE2CC4147D00F4C71A /* Debug */,
+				8E11FBFF2CC4147D00F4C71A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E11FC002CC4147D00F4C71A /* Build configuration list for PBXNativeTarget "Brainwise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E11FC012CC4147D00F4C71A /* Debug */,
+				8E11FC022CC4147D00F4C71A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E11FC032CC4147D00F4C71A /* Build configuration list for PBXNativeTarget "BrainwiseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E11FC042CC4147D00F4C71A /* Debug */,
+				8E11FC052CC4147D00F4C71A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E11FC062CC4147D00F4C71A /* Build configuration list for PBXNativeTarget "BrainwiseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E11FC072CC4147D00F4C71A /* Debug */,
+				8E11FC082CC4147D00F4C71A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8E6C82FD2CC8991100395C81 /* XCRemoteSwiftPackageReference "OpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MacPaw/OpenAI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8E6C82FE2CC89A8E00395C81 /* OpenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E6C82FD2CC8991100395C81 /* XCRemoteSwiftPackageReference "OpenAI" */;
+			productName = OpenAI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8E11FBD42CC4147C00F4C71A /* Project object */;
+}
