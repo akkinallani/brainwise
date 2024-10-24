@@ -11,7 +11,7 @@ import OpenAI
 class ChatController: ObservableObject {
     @Published var messages: [Message] = []
     
-    let openAI = OpenAI(apiToken: "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")
+    let openAI = OpenAI(apiToken: "")
     
     func sendNewMessage(content: String) {
         let userMessage = Message(content: content, isUser: true)
